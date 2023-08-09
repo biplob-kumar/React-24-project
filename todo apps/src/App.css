@@ -1,0 +1,86 @@
+.container{
+    flex-direction: column;
+    background-color: #444;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todos{
+    width: 400px;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius:0.6rem ;
+
+    height: 60vh;
+}
+
+
+.todo{
+    background-color: #2222;
+    margin: 0.4rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+
+
+}
+.todo:hover{
+    background-color: rgb(103, 110, 110);
+}
+.todo p{
+    opacity: 0.6;
+}
+.btn{
+    border: none;
+     color: red;
+}
+
+
+
+.form{
+    width: 400px;
+    background-color: #333;
+    color: white;
+    margin: 0.4rem;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.form-field{
+    margin: 1rem 0;
+    display: flex;
+}
+.form-field label{
+  flex-basis: 20%;
+}
+.form-field input{
+    flex-basis: 80%;
+    padding: 10px 20px ;
+}
+.form-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+
+}
+.form button{
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+}
+.form button:hover{
+    background-color: orange;
+    color: white;
+}

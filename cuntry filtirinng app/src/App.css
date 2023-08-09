@@ -1,0 +1,103 @@
+
+
+
+/*  index css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1rem 0;
+}
+
+
+/*  app css */
+input {
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  border-color: orange;
+  outline: none;
+}
+input:focus {
+  color: whitesmoke;
+  background-color: rgb(31, 178, 151);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* countries  */
+.countries {
+  padding: 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .countries {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .countries {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+
+
+/*  cpuntry .moduliue css */
+
+.country {
+  background-color: #4b5756;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+.country:hover {
+  transform: scale(1.1);
+}
+
+.flag {
+  width: 20rem;
+  height: 15rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: rgb(42, 201, 169);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
+h1{
+  margin: 0;
+   color: whitesmoke;
+   font-weight: bold;
+  background-color: rgb(35, 178, 161);
+  padding: 10px;
+  
+}

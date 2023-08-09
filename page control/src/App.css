@@ -1,0 +1,82 @@
+.eror h2{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+.eror{
+background-color: red;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   margin-left: 5rem;
+}
+header ul{
+    margin-top: 2rem;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+}
+a {
+    color: coral;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+a {
+    margin-top: 2rem;
+}
+
+.about{
+    text-align: center;
+    background: url(../public/img1.jpg) center ;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.about h1{
+    font-size: 4rem;
+   position: relative;
+   top: 40%;
+   color: whitesmoke;
+}
+.about button{
+    padding: 15px 20px ;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    top: 10%;
+    font-weight: bold;
+}
+
+
+.contact{ 
+    text-align: center;
+    
+    background: url(../public/img2.jpg) center;
+    background-size: cover;
+    height: 100vh;
+}
+.contact h1{
+    position: relative;
+    top: 10%;
+    font-size: 4rem;
+    color: coral;
+}
+.contact button{
+    position: relative;
+    top: 10%;
+    font-size: 1rem;
+    font-weight:bold;
+    padding: 15px 20px ;
+    border: none;
+}
+
+.home{
+    background: url(../public//img3.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}

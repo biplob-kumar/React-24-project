@@ -1,0 +1,65 @@
+*{
+  font-family: cursive;
+}
+.gallary-wraper{
+  padding: 50px;
+  background-color: rgb(6, 192, 170);
+  height: 100%;
+}
+.gallary-wraper h2{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px;
+  
+ 
+
+}
+.gallary-continer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-gap: 1rem;
+}
+
+.gallary-item img{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 20px 0px 50px ;
+}
+
+.filter-item ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  margin-bottom: 30px;
+
+}
+
+.filter-item ul button{
+  padding: 12px 30px ;
+  border-radius: 10px;
+  background-color: rgb(14, 210, 240);
+  border: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+.filter-item ul button:hover{
+  background-color: coral;
+}
+
+/* / mediya quarry */
+
+@media only screen and (max-width: 600px) {
+  .gallary-continer{
+    grid-template-columns: 1fr  ;
+
+  }
+  
+}
